@@ -1,0 +1,27 @@
+h1 {
+    padding: 2rem;
+    background: #1e4d8a;
+    color: white;
+}
+
+h2 {
+    padding: 1rem;
+    font-size: 1.5em;
+    color: rgb(126, 126, 126);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.aspect-16_9 {
+    display: block;
+    padding-top: 56.25%;
+    height: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.aspect-16_9 > :first-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
