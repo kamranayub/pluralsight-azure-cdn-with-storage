@@ -1,6 +1,6 @@
 #!/bin/sh
 az cdn profile create \
-  --name pluralsightdemo \
+  --name psazurestoragecdn \
   --resource-group pluralsight-azure-storage-cdn \
-  --location 'East US' \
-  --sku Standard_Akamai
+  --location 'Central US' \
+  --sku Standard_Akamai | jq

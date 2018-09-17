@@ -1,7 +1,7 @@
 # Get existing CDN endpoint
 $Endpoint = Get-AzureRmCdnEndpoint `
-    -EndpointName pluralsightazurerm `
-    -ProfileName pluralsightdemo `
+    -EndpointName psazurestoragecdn `
+    -ProfileName psazurestoragecdn `
     -ResourceGroupName pluralsight-azure-storage-cdn
 
 # Set new properties and update

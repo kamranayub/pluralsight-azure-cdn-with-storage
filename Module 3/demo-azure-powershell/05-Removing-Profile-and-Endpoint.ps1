@@ -1,10 +1,10 @@
 # First, we remove the endpoint
 Remove-AzureRmCdnEndpoint `
-    -EndpointName pluralsightazurerm `
-    -ProfileName pluralsightdemo `
+    -EndpointName psazurestoragecdn `
+    -ProfileName psazurestoragecdn `
     -ResourceGroupName pluralsight-azure-storage-cdn
 
 # Now, remove profile
 Remove-AzureRmCdnProfile `
-    -ProfileName pluralsightdemo `
+    -ProfileName psazurestoragecdn `
     -ResourceGroupName pluralsight-azure-storage-cdn

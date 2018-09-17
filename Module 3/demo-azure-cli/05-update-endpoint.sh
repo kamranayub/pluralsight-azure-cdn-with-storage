@@ -1,6 +1,6 @@
 #!/bin/sh
 az cdn endpoint update \
-  --name pluralsightazurecli \
-  --profile-name pluralsightdemo \
+  --name psazurestoragecdn \
+  --profile-name psazurestoragecdn \
   --resource-group pluralsight-azure-storage-cdn \
-  --origin-host-header 'psazurestoragecdn.blob.core.windows.net'
+  --origin-host-header 'psazurestoragecdn.blob.core.windows.net' | jq
