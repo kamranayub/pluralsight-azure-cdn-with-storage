@@ -5,5 +5,6 @@
     "workbench.colorTheme": "Default Light+",
     "workbench.tips.enabled": false,
     "git.countBadge": "off",
-    "git.decorations.enabled": false
+    "git.decorations.enabled": false,
+    "window.zoomLevel": 1
 }
