@@ -33,6 +33,18 @@ The demo storage account used is a General Purpose v2 Storage Account, see [Quic
 
 You can then upload the contents of the `example-site-files` folder to a blob container named `staticsite`. After that, you can follow along with the demos.
 
+### Ensure you are on the right subscription for automation
+
+To manage the storage account and other resources we create in the demos, you will need to ensure you have the right Azure Subscription set by default when running commands. You only need to do this if you have multiple subscriptions.
+
+In Azure PowerShell SDK:
+
+    Set-AzureRmContext -SubscriptionId <Subscription ID>
+
+In Azure CLI:
+
+    az account set -s <Subscription ID>
+
 ### Ensure you have the correct AzureRM and Azure.Storage PowerShell modules installed
 
 If some commands are failing or you don't see what I'm showing during the course, you may have incorrect modules installed that are overwriting newer ones.
