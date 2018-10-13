@@ -1,6 +1,6 @@
 # Microsoft Azure Developer: Implementing Azure CDNs with Storage Pluralsight Course Materials
 
-These materials are for the Pluralsight course **Microsoft Azure Developer: Implementing Azure CDNs with Storage**. The license is Apache 2.0. Static site image content is royalty free and available for any use through Pexels, see `example-site-files/credits.txt`.
+These materials are for the Pluralsight course **[Microsoft Azure Developer: Implementing Azure CDNs with Storage](http://bit.ly/PSAzureStorageCDN)**. The license is Apache 2.0. Static site image content is royalty free and available for any use through Pexels, see `example-site-files/credits.txt`.
 
 ## Table of Contents
 
