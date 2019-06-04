@@ -1,2 +1,2 @@
 # List all profile endpoints
-Get-AzureRmCdnProfile | Get-AzureRmCdnEndpoint
+Get-AzCdnProfile | Get-AzCdnEndpoint

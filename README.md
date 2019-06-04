@@ -22,6 +22,10 @@ Please report course issues using the [Issues](https://github.com/kamranayub/plu
 
 ## Updates
 
+- **Jun 2019**
+  - 🛠 _Enhancement_: Update content to use `Az` PowerShell module
+  - 🐛 _Fixed_: Update Module 2, Clip 6 to demo new Billing portal experience
+
 - **Oct 2018**
   - Initial release 🎉
 
@@ -39,20 +43,20 @@ To manage the storage account and other resources we create in the demos, you wi
 
 In Azure PowerShell SDK:
 
-    Set-AzureRmContext -SubscriptionId <Subscription ID>
+    Set-AzContext -SubscriptionId <Subscription ID>
 
 In Azure CLI:
 
     az account set -s <Subscription ID>
 
-### Ensure you have the correct AzureRM and Azure.Storage PowerShell modules installed
+### Ensure you have the correct Az and Azure.Storage PowerShell modules installed
 
 If some commands are failing or you don't see what I'm showing during the course, you may have incorrect modules installed that are overwriting newer ones.
 
 Execute the following commands:
 
 ```powershell
-Get-Module -ListAvailable -Name AzureRM -Refresh
+Get-Module -ListAvailable -Name Az -Refresh
 Get-Module -ListAvailable -Name Azure.Storage -Refresh
 ```
 
@@ -82,18 +86,18 @@ Replace the values with actual values from your Azure account. Note the quotes (
 - [Azure Tools and SDKs][azuretools]
 - [OpenSSL Binaries][getopenssl]
 - [Install Azure PowerShell][psinstall]
-- [AzureRM.Cdn PowerShell Docs][pscdndocs]
+- [Az.Cdn PowerShell Docs][pscdndocs]
 - [Installing Azure CLI][cliinstall]
 - [Microsoft REST API Browser][restbrowser]
 - [Working With ARM Templates][armtemplates]
 
 [azuretools]: https://azure.microsoft.com/en-us/tools/
 [getopenssl]: https://bit.ly/GetOpenSSL
-[psinstall]: https://docs.microsoft.com/en-us/powershell/azure/install-azurerm-ps
+[psinstall]: https://docs.microsoft.com/en-us/powershell/azure/install-az-ps
 [cliinstall]: https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows?view=azure-cli-latest
 [armtemplates]: https://bit.ly/azurermtemplates
 [restbrowser]: https://bit.ly/azureapidocs
-[pscdndocs]: https://bit.ly/AzureRMCDN
+[pscdndocs]: http://bit.ly/AzureRMCdn
 
 ### Azure CDN
 
