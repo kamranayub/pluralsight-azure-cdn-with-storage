@@ -1,5 +1,5 @@
 # Create new CDN profile
-New-AzureRmCdnProfile `
+New-AzCdnProfile `
     -ProfileName psazurestoragecdn `
     -Location 'East US' `
     -Sku Standard_Akamai `
@@ -7,7 +7,7 @@ New-AzureRmCdnProfile `
 
 # Create a new Azure CDN endpoint within the new
 # CDN profile just created
-New-AzureRmCdnEndpoint `
+New-AzCdnEndpoint `
     -ProfileName psazurestoragecdn `
     -EndpointName psazurestoragecdn `
     -ResourceGroupName pluralsight-azure-storage-cdn `

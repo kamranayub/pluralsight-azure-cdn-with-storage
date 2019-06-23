@@ -1,2 +1,2 @@
-# List available AzureRM Cdn cmdlets
-Get-Help *AzureRMCdn*
+# List available Az Cdn cmdlets
+Get-Help *AzCdn*
