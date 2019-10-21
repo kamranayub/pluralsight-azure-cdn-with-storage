@@ -2,6 +2,9 @@
 
 These materials are for the Pluralsight course **[Microsoft Azure Developer: Implementing Azure CDNs with Storage](http://bit.ly/PSAzureStorageCDN)**. The license is Apache 2.0. Static site image content is royalty free and available for any use through Pexels, see `example-site-files/credits.txt`.
 
+[![Course overview screenshot](https://user-images.githubusercontent.com/563819/67175905-79beda80-f38d-11e9-8106-b2bce380340e.png)](http://bit.ly/PSAzureStorageCDN)
+
+
 ## Table of Contents
 
 1. [Organization](#organization)
