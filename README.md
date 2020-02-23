@@ -25,6 +25,10 @@ Please report course issues using the [Issues](https://github.com/kamranayub/plu
 
 ## Updates
 
+- **Feb 2020**
+
+- 🛠 _Enhancement_: Update ARM `template.json` to latest API versions
+
 - **Jun 2019**
   - 🛠 _Enhancement_: Update content to use `Az` PowerShell module
   - 🐛 _Fixed_: Update Module 2, Clip 6 to demo new Billing portal experience
