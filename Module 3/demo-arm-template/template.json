@@ -24,21 +24,21 @@
     "resources": [
         {
             "type": "microsoft.cdn/profiles",
-            "sku": "[parameters('sku')]",
+            "apiVersion": "2019-04-15",
             "name": "[parameters('profileName')]",
-            "apiVersion": "2018-04-02",
             "location": "[parameters('location')]",
+            "sku": "[parameters('sku')]",
             "properties": "[parameters('profileProperties')]"
         },
         {
             "type": "microsoft.cdn/profiles/endpoints",
+            "apiVersion": "2019-04-15",
             "name": "[concat(parameters('profileName'),'/',parameters('endpointName'))]",
-            "apiVersion": "2018-04-02",
             "location": "[parameters('location')]",
-            "properties": "[parameters('endpointProperties')]",
             "dependsOn": [
                 "[concat('Microsoft.Cdn/profiles/', parameters('profileName'))]"
-            ]
+            ],
+            "properties": "[parameters('endpointProperties')]"
         }
     ]
 }
